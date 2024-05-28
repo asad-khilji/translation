@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-size: 23px;
+    margin-top: 25px;
+}
+
+footer {
+    margin-top: 25px;
+    background-color: black;
+    min-height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 20px;
+    }
+  }
